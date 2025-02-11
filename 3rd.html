@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      How well you know me? - 2
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <style>
+      body{
+        background-color: black;
+      }
+
+      .main{
+        height: 660px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+      }
+
+      .header-div,
+      .question{
+        font-family: VT323;
+        letter-spacing: 4px;
+        height: 40px;
+        display:flex;
+        font-size: 36px;
+        padding: 8px;
+        color:rgb(255, 44, 108);
+        justify-content:center;
+        border: solid;
+        border-color:rgb(255, 44, 108);
+        border-radius: 15px;
+      }
+      .header-div{
+        background-color: aliceblue;
+        transition: color 0.15s, background-color 0.15s, border-color 0.15s;
+      }
+      .header-div:hover{
+        color:aliceblue;
+        background-color: rgb(187, 33, 92);
+        border-color: aliceblue;
+
+      }
+      .question{
+        color:aliceblue;
+        background-color: rgb(187, 33, 92);
+        border-color: aliceblue;
+        transition: color 0.15s, background-color 0.15s, border-color 0.15s;
+        
+      }
+      .question:hover{
+        color:rgb(255, 44, 108);
+        background-color: white;
+        border-color: rgb(255, 44, 108);
+        
+        
+      }
+      .option-div{
+        
+        flex:1;
+        display: flex;
+        border: solid;
+        border-color:rgb(255, 44, 108);
+        border-radius: 15px;
+        height: 530px;
+        column-gap: 8px;
+        background-color: rgb(187, 33, 92);
+        box-shadow: inset 0.1;
+      }
+      .a{
+        
+        flex:1;
+        background-color: whitesmoke;
+        border-color: white;
+        border-width: 1.5px;
+        border-radius: 15px;
+        color:black;
+        position: relative;
+      }
+      .b{
+        flex:1;
+        background-color: whitesmoke;
+        border-color: white;
+        border-width: 1.5px;
+        border-radius: 15px;
+        position: relative;
+         
+
+      }
+      .c{
+        flex:1;
+        background-color: whitesmoke;
+        border-color: white;
+        border-width: 1.5px;
+        border-radius: 15px;
+        position: relative;
+         
+      }
+   
+      img{
+        
+        
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border: solid;
+        border-color: white;
+        border-width: 1.5px;
+        border-radius: 15px;
+        opacity:0;
+        
+        transition: opacity 0.45s;
+        
+      }
+      
+        
+      
+      .a:hover .book{
+        opacity:1;
+      }
+      .a:hover .acover{
+        opacity:0;
+      }
+       
+      
+      .acover{
+        
+        position: absolute;
+        bottom:0;
+        opacity:1;
+      }
+
+
+      .b:hover .gym{
+        opacity:1;
+      }
+      .b:hover .bcover{
+        opacity:0;
+      }
+       
+      
+      .bcover{
+         
+        
+        position: absolute;
+        bottom:0;
+        opacity:1;
+      }
+
+
+
+      .c:hover .ass{
+        opacity:1;
+      }
+      .c:hover .ccover{
+        opacity:0;
+      }
+       
+      
+      .ccover{
+        
+        position: absolute;
+        bottom:0;
+        opacity:1;
+      }
+ 
+
+ 
+       
+      
+      
+    
+
+    </style>
+
+  </head>
+  <body>
+    <div class = "main">
+      <div class = "header-div">
+        HOW WELL DO YOU KNOW ME.
+
+      </div>
+      <div class= "question">
+
+        WHAT' MY FAVOURITE?
+
+      </div>
+      <div class= "option-div">
+
+        <div class = "c" onclick= "location.href='http://127.0.0.1:5500/4th.html'">
+          <img class="ass" src =  "Screenshot 2025-02-08 234929.png">
+          <img class="ccover" src="cosytales-couple.gif">
+          
+        </div>
+        <div onclick ="console.log(alert('Meh..'))"  class = "a">
+          
+          <img class = "book" src = "1716287814954.png">
+          
+          
+          <img class = "acover" src= "cosytales-love.gif">
+  
+        </div>
+        
+        
+        
+
+        <div class = "b" onclick ="console.log(alert('good but not best.'))">
+          <img class="gym" src = "Anime.webp">
+          <img class="bcover" src="cosytales-couple (1).gif">
+
+          
+        </div>
+  
+      </div>
+
+    </div>
+ 
+
+
+  </body>
+
+</html>
