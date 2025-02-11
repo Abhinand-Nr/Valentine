@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      VALENTINES DAY
+    </title>
+    
+
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <style>
+      body{
+        background-color:black;
+        height: 660px;
+         
+      }
+      .main{
+        height:660px;
+        display: flex;
+        flex-direction: column;
+        row-gap:3px;
+      }
+ 
+      
+      .title-div{
+        font-family: VT323;
+        letter-spacing: 4px;
+        height: 40px;
+        display:flex;
+        font-size: 36px;
+        padding: 8px;
+        color:rgb(255, 44, 108);
+        justify-content:center;
+        border: solid;
+        border-color:rgb(255, 44, 108);
+        border-radius: 15px;
+      }
+      .opt-div{
+        flex:1;
+
+        
+        display:flex;
+        justify-content: center;
+        flex-direction: row;
+        border: solid;
+        border-color:rgb(255, 44, 108);
+        border-radius: 15px;
+      }
+      img{
+        position: absolute;
+        left: 40px;
+         
+
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 100px;
+        object-position: bottom;
+        opacity: 0.5;
+        transition: height 0.15s, width 0.15s;
+
+      }
+      .right-pic:hover,
+      .mid-pic:hover,
+      .left-pic:hover{
+        width:420px;
+        height: 420px;
+        z-index:5;
+
+      }
+      .right-pic:active,
+      .mid-pic:active,
+      .left-pic:active{
+        opacity:1;
+        z-index:5;
+
+      }
+      .right-pic{
+        
+        top: 90px;
+        left: 1060px;
+        
+
+      }
+      .mid-pic{
+ 
+        top: 160px;
+        left: 565px;
+        
+
+      }
+      .left-pic{
+        
+        bottom: 60px;
+        left: 60px;
+        
+
+      }
+      .click-div{
+        flex:1;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+        
+        
+      }
+      .a{
+        flex:1;
+      }
+      .c{
+        flex:1;
+      }
+      .click{
+        display:inline-block;
+        height: 60px;
+         
+        font-size:40px;
+        font-family: VT323;
+        letter-spacing: 4px;
+        background-color: rgb(189, 5, 85);
+        color:rgb(255, 255, 255);
+        text-decoration:none;
+        padding: 30px;
+        border-radius: 10px;
+        z-index: 99;
+        transition: padding 0.15s, padding-top 0.15s, padding-bottom 0.15s, font-size 0.15s;
+        
+    
+
+      }
+ 
+
+      
+      .click:hover{
+        font-size: 50px;
+        padding:10px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+        
+        
+         
+      }
+      .bg-img{
+        opacity: 0.1;
+        object-fit:fill;
+        position: absolute;
+        width:740px;
+        height:740px;
+        border-radius: 500px;;
+        margin-left: 345px;
+        box-shadow: 0 0 8px 8px white inset;
+        z-index:0;
+      }
+       
+    </style>
+
+  </head>
+  <body>
+    <img class = "bg-img" src="02441bfd712ddb161c6fcd505f4917f9_w200.webp">
+
+    
+    <div class="main">
+      <div class="title-div">
+        
+      
+        ~HAPPY VALENTINES DAY BBG!!~
+      
+  
+      </div>
+      <div class = opt-div>
+        <img onclick="console.log(alert('My pretty princess.'))" class = "left-pic" src =  "WhatsApp Image 2024-12-16 at 17.39.38_43635d52.jpg">
+        <img onclick="console.log(alert('Mine and mine only.'))" class = "right-pic" src = "WhatsApp Image 2024-12-19 at 21.37.10_7c4f69e0.jpg">
+        <img onclick="console.log(alert('Tujhme Rab dikhta hai <3.'))" class = "mid-pic" src = "WhatsApp Image 2025-01-25 at 21.37.18_aa6c3c3c.jpg">
+        <div class = "a"></div>
+        <div class = click-div>
+        
+          <a class = "click" href="http://127.0.0.1:5500/2nd.html">
+            <scan class="heart">&#10084;</scan>CLICK KARO GORI<scan class="heart">&#10084;</scan>
+          </a>
+        </div>
+        <div class="c"></div>
+
+
+        
+  
+      </div>
+
+    </div>
+ 
+ 
+
+  </body>
+</html>
